@@ -33,7 +33,7 @@ function List() {
           <h3 className="font-serif">Ingredientes Utilizados:</h3>
           <ul className="font-serif">
             {food.ingredients.map((f, key) => (
-              <li id={key}>-{f}</li>
+              <li id={key.toString()}>-{f}</li>
             ))}
           </ul>
         </div>
